@@ -23,3 +23,13 @@ console.log(x[x.length - 1])
 for (let i = 0; i < x.length; i++) {
     console.log(x[i])
 }
+
+// Zadanie 3 
+
+function printTable(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i])
+    }
+}
+
+// Zadanie 4
