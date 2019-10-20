@@ -33,3 +33,13 @@ function printTable(array) {
 }
 
 // Zadanie 4
+
+function multiply(array) {
+    let sum = array[0];
+
+    for (let i = 1; i < array.length; i++) {
+        sum *= array[i]
+    }
+
+    console.log(sum)
+}
