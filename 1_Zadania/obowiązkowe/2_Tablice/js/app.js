@@ -43,3 +43,16 @@ function multiply(array) {
 
     console.log(sum)
 }
+
+// Zadanie 5 
+
+function getEvenAvarage1(array) {
+    let sum = 0;
+    let counter = 0; 
+
+    for (let i = 0; i < array.length; i++) {
+       array[i] % 2 === 0 ? (sum += array[i], counter += 1) : null;
+    }
+    
+    return sum > 1 ? sum / counter : null;
+}
