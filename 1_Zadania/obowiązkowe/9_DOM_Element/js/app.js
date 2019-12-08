@@ -9,4 +9,15 @@ document.addEventListener("DOMContentLoaded", function () {
     Poniżej napisz kod rozwiązujący zadania
      */
 
+    function getDatasInfo(elements) {
+        const nElements = [];
+
+        [...elements].forEach(element => {
+            nElements.push(element.getAttribute('data-color'));
+        });
+
+        return nElements;
+    }
+
+    getDatasInfo(links);
 });
