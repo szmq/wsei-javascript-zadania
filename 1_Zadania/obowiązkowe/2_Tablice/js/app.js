@@ -16,13 +16,13 @@ function distFromAverage(array){
 
 // Zadanie 1 
 
-const x = ['banana', 'orange', 'apple']
-console.log(x[0]);
-console.log(x[x.length - 1])
-
-for (let i = 0; i < x.length; i++) {
-    console.log(x[i])
-}
+// const x = ['banana', 'orange', 'apple']
+// console.log(x[0]);
+// console.log(x[x.length - 1])
+//
+// for (let i = 0; i < x.length; i++) {
+//     console.log(x[i])
+// }
 
 // Zadanie 3 
 
@@ -55,4 +55,26 @@ function getEvenAvarage1(array) {
     }
     
     return sum > 1 ? sum / counter : null;
+}
+
+// Zadanie 6
+
+function sortArray(array) {
+    return array.sort((a, b) =>  a - b);
+}
+
+// Zadanie 7
+
+function addArrays(array1,array2){
+    let longerArray = array1;
+    let shorterArray = array2;
+
+    if (longerArray.length < shorterArray.length) {
+        longerArray = array2;
+        shorterArray = array1;
+    }
+
+    return longerArray.map(function (num, idx) {
+        return num + (shorterArray[idx] || 0);
+    });
 }
