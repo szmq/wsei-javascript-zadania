@@ -5,7 +5,7 @@ function distFromAverage(array){
 
     array.forEach(element => {
         sum += element;
-    })
+    });
 
     let average = sum / array.length;
 
@@ -16,13 +16,13 @@ function distFromAverage(array){
 
 // Zadanie 1 
 
-// const x = ['banana', 'orange', 'apple']
-// console.log(x[0]);
-// console.log(x[x.length - 1])
-//
-// for (let i = 0; i < x.length; i++) {
-//     console.log(x[i])
-// }
+const x = ['banana', 'orange', 'apple'];
+console.log(x[0]);
+console.log(x[x.length - 1]);
+
+for (let i = 0; i < x.length; i++) {
+    console.log(x[i])
+}
 
 // Zadanie 3 
 
