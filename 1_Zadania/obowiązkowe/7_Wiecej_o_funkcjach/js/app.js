@@ -4,29 +4,30 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
+// Zadanie 0
 
-//Twoj komentarz ...
+// Definicja funkcji jeden
 function jeden() {
 
-    //Twoj komentarz ...
+    // Definicja zmiennej "zmienna1" dostępnej w scope funkcji jeden
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    // Definicja funkcji "dwa" dostepnej w scope funkcji jeden
     function dwa() {
 
-        //Twoj komentarz ...
+        // Wypisanie wartości zmiennej "zmienna1", zmienna zwroci wartosc, poniewaz znajduje się w scopie funkcji dwa
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        // Definicja zmiennej "zmienna2" w scope funkcji dwa, nie jeden, wiec w jeden niedostepnej
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    // Wywolanie wyzej zdefiniowanej funkcji dwa
     dwa();
 
-    //Twoj komentarz ...
+    // Proba wypisania zmiennej, zwroci Uncaught Reference Error, poniewaz zmienna ta nie jest dostepna w scope funkcji jeden
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
-jeden()
+// Wywolanie funkcji jeden
+jeden();

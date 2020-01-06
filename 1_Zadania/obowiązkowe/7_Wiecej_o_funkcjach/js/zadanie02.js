@@ -1,3 +1,5 @@
+// Zadanie 2
+
 function callOtherFunction(nameOfFunction) {
     console.log("Cześć jestem funkcją o nazwie 'callOtherFunction' i wywołuję funkcję, którą ktoś mi wrzucił jako parametr");
 
@@ -8,7 +10,11 @@ function callOtherFunction(nameOfFunction) {
 
 callOtherFunction(function (a, b) {
     console.log("Pierwsza liczba:", a);
-    console.log("Druga liczba", b)
-    console.log("Wynik", a + b)
-})
+    console.log("Druga liczba", b);
+    console.log("Wynik", a + b);
+    console.log("Wynik dodawania: ", a + b);
+    console.log("Wynik odejmowania: ", a - b);
+    console.log("Wynik mnożenia: ", a * b);
+    console.log("Wynik dzielenia: ", a / b);
+});
 
