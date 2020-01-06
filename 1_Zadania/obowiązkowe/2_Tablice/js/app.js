@@ -74,7 +74,5 @@ function addArrays(array1,array2){
         shorterArray = array1;
     }
 
-    return longerArray.map(function (num, idx) {
-        return num + (shorterArray[idx] || 0);
-    });
+    return longerArray.map((num, idx) => num + (shorterArray[idx] || 0));
 }
