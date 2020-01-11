@@ -16,13 +16,17 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("b: ", this);
 
 
-    function innerFuncOne() {
+    const innerFuncOne = () => {
       // Tutaj this wskazuje na element Window, bo funkcja została
       //wywołana bez żadnego kontekstu.
       console.log("innerFuncOne: ", this);
-    }
+    };
     innerFuncOne();
 
   });
+});
 
-})
+// 1. Można użyć arrrow function, któ®e nie zmieniają kontekstu
+// 2. bind, apply, call
+// 3. przekazać jako argument
+// 4. bezposrednio wypisac b zamiast this, bo znajduje sie w scope

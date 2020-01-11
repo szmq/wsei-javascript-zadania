@@ -11,7 +11,6 @@ Pamiętaj o tym, aby nie chować wszystkich elementów naraz.
 
 ### Zadanie 0b Eventy, this, przekazywanie parametrów  (~ 7min - 12min)
 Zmodyfikuj poprzednie zadanie w taki sposób, aby chowanie elementu ```children```
-było wykonywane za pomocą funkcji ```hideChildrenElement()```. Wykorzystaj wiedzę o ```this```.
 
 Stwórz funkcję wewnątrz funkcji eventu. Wykorzystaj konstrukcję poniżej:
 
