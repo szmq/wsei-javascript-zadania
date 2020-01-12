@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const buttons = [
     document.querySelector('#button1'),
     document.querySelector('#button2'),
